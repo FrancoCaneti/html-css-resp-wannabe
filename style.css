@@ -71,3 +71,23 @@ img {
 .clear {
   clear: both;
 }
+
+/*navigazone <420*/
+
+@media screen and (max-width:419px){
+ .row{
+   max-width:100%;
+ }
+ #lezioni .row>.left,
+ #lezioni .row>.right {
+  width: 100%;
+  float: right;
+ }
+ 
+ #lezioni .row img {
+  /* per centrare orizzontalmente */
+  
+  width:100%;
+  height:100%;
+}
+ }
